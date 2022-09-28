@@ -129,7 +129,7 @@ class MainMenuState extends MusicBeatState
 		}
 
 		FlxG.camera.follow(camFollowPos, null, 1);
-        var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "mod ported by gabseila;-;" + Application.current.meta.get('version'), 12);
+        var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "mod ported by gabseila;-;" + psychEngineVersion, 12);
 		versionShit.scrollFactor.set();
 		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v" + psychEngineVersion, 12);
 		versionShit.scrollFactor.set();
